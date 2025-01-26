@@ -53,3 +53,31 @@ section{
 .div-1{
     background-color: #C6E4D6;
 }
+.pillar-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pillar-items{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    
+    padding: 20px 0;
+    
+}
+.pillar-title{
+    background-color: #FFFFFF;
+
+}
+.pillar-des{
+    background-color: #FFFFFF;
+}
+.pillar-img{
+    background-color: #FFFFFF;
+}
+.sec-div-1 h2{
+    font-size: 35px;
+}
+
+
