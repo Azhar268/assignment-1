@@ -348,3 +348,67 @@ select option:hover{
     font-weight: bolder;
     margin-top: 50px;   
 }
+.donate-des{
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+.parent-taka{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.taka{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 300px;
+    height: 80px;
+    padding: 20px 0;
+    padding-top: 30px;
+}
+.taka h2{
+    background-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.taka:hover{
+    background-color: rgba(198, 228, 214, 1);
+    cursor: pointer;
+}
+.taka-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.taka-input input{
+    background-color: transparent;
+    width: 1300px;
+    height: 70px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 23px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    
+}
+.taka-input input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+}
+.taka-input input[type="text"]{
+    outline-color: #4fceae;
+    
+}
+.btn-green-done{
+    color: #FFFFFF;
+    background-color: #006A50;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 5px;
+    width: 150px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
