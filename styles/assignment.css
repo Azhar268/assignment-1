@@ -81,3 +81,81 @@ section{
 }
 
 
+.vision-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.vis-item-1 {
+    border-radius: 16px;
+    
+    background-color: rgba(84, 144, 245, 0.2);
+    
+    
+}
+.vis-item-1 h3, .vis-item-1 p, .vis-item-1 img {
+    background-color: transparent; /* Remove background from child elements */
+    
+}
+.lrn-blu{
+    background-color: rgba(84, 144, 245, 1);
+    border-radius: 8px;
+    width: 122px;
+    padding: 15px 8px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.vis-item-2 {
+    border-radius: 16px;
+    
+    background-color: rgba(198, 228, 214, 1)
+    
+}
+.vis-item-2 h3, .vis-item-2 p, .vis-item-2 img {
+    background-color: transparent; /* Remove background from child elements */
+    
+}
+.lrn-green{
+    background-color: rgba(9, 161, 92, 1);
+    border-radius: 8px;
+    width: 122px;
+    padding: 15px 8px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+.vis-item-3 {
+    border-radius: 16px;
+    
+    background-color: rgba(247, 235, 207, 1);
+    
+}
+.vis-item-3 h3, .vis-item-3 p, .vis-item-3 img {
+    background-color: transparent; /* Remove background from child elements */
+    
+}
+.lrn-yellow{
+    background-color: rgba(255, 194, 57, 1);
+    border-radius: 8px;
+    width: 122px;
+    padding: 15px 8px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.vis-title{
+    font-size: 35px;
+    font-weight: bolder;
+}
