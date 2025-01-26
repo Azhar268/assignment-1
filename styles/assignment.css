@@ -1,45 +1,69 @@
-
 .open-sans-normal {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-*{
-   
-    margin: 15px 40px;
-    background-color: #F5F5F5;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
     
-}
-body {
-    margin: 0;
-    padding: 0;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
   }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.sign-in{
-border: 1px solid #006A50;
-color: #006A50;
-border-radius: 8px;
-width: 116px;
-padding: 17px 10px;
-font-weight: bolder;
-font-size: 18px;
-cursor: pointer;
-
-}
-.sign-in:hover{
-    background-color: #006A50;
+  *{
+     
+      margin: 15px 40px;
+      background-color: #F5F5F5;
+      
+  }
+  body {
+      margin: 0;
+      padding: 0;
+    }
+  nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .sign-in{
+  border: 1px solid #006A50;
+  color: #006A50;
+  border-radius: 8px;
+  width: 116px;
+  padding: 17px 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  
+  }
+  .sign-in:hover{
+      background-color: #006A50;
+      color: #FFFFFF;
+  }
+  section{
+      margin: 60px;
+  }
+.btn-green{
     color: #FFFFFF;
+    background-color: #006A50;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 5px;
+    width: 250px;
+    cursor: pointer;
 }
-section{
-    margin: 60px;
+
+.bd-sml-clr{
+    color: rgba(14, 14, 14, 0.5);
+    background-color: #C6E4D6;
+    font-size: 24px;
+}
+.idea-title{
+    font-size: 50px;
+    background-color: #C6E4D6;
+    font-weight: bolder;
+}
+nav h2{
+    font-size: 30px;
 }
 .sec-1{
     display: flex;
@@ -79,6 +103,9 @@ section{
 .sec-div-1 h2{
     font-size: 35px;
 }
+
+
+
 
 
 .vision-div{
@@ -159,6 +186,7 @@ section{
     font-size: 35px;
     font-weight: bolder;
 }
+
 .yunus-div{
     border-radius: 16px;
     background-color: #FFFFFF;
@@ -291,63 +319,6 @@ select option:hover{
     font-weight: bolder;
     margin-top: 50px;   
 }
-.news-1{
-    display: flex;
-    border-radius: 24px;
-    background-color: #FFFFFF;
-}
-.sat-2, .sat, .sat-2 h2, .sat-2 time, .sat-2 p, .sat-2 img{
-    background-color: transparent;
-}
-.sat img{
-    border-radius: 24px;
-}
-
-
-.news-2{
-    display: flex;
-    border-radius: 24px;
-    background-color: #FFFFFF;
-}
-.sat-2, .sat, .sat-2 h2, .sat-2 time, .sat-2 p, .sat-2 img{
-    background-color: transparent;
-}
-.news-3{
-    display: flex;
-    border-radius: 24px;
-    background-color: #FFFFFF;
-}
-.sat-2, .sat, .sat-2 h2, .sat-2 time, .sat-2 p, .sat-2 img{
-    background-color: transparent;
-}
-.sat-2{
-    align-items: start;
-}
-
-.time, .news-des{
-    color: rgba(14, 14, 14, 0.7);
-}
-.span-time{
-    background-color: transparent;
-    margin-left: 15px;
-}
-.time{
-    margin-top: 0px;
-}
-.recent-des{
-    color: rgba(14, 14, 14, 0.7);
-}
-.donate-title{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
-     
-}
-.news-title{
-    font-size: 35px;
-    font-weight: bolder;
-    margin-top: 50px;   
-}
 .donate-des{
     color: rgba(14, 14, 14, 0.7);
     text-align: center;
@@ -412,3 +383,78 @@ select option:hover{
     display: block;
     margin: 0 auto;
 }
+
+.footer h2{
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+
+footer hr{
+    background-color: rgba(14, 14, 14, 0.1);
+                 
+        border: none;   
+        height: 1px;  
+        width: 1000px;      
+        justify-content: center;
+        align-items: center;   
+    margin: 20px auto;
+      
+}
+.footer{
+    
+    
+    margin: 0; /* Remove any margin applied to the footer */
+    padding: 0; /* Ensure no padding is applied to footer */
+    /* width: 100vw;  */
+    width: 100vw;
+    background-color: #FFFFFF;  /* Set background color to white */
+    display: flex;
+    justify-content:center; /* Horizontally center the content */
+    align-items:center; /* Vertically center the content */
+    
+    position: relative;
+    
+}
+
+
+footer .footer-img {
+    background-color: #FFFFFF; /* Set the background color for images inside the footer */
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+
+    
+  }
+  .footer-footer{
+    background-color: transparent;
+  }
+  .footer-img{
+    background-color: transparent;
+  }
+
+footer .footer-img img{
+    background-color: #FFFFFF; /* Make sure images have white background */
+  display: block; /* Prevent images from being inline */
+  padding: 0;
+  margin: 0;
+   /* Add padding around images */
+   /* Optional: Add rounded corners to images */
+}
+footer .footer-img div,
+
+footer .footer-img a {
+  background-color: transparent; /* Remove any background color */
+  border: none; /* Remove any border */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: block; /* Ensure the images are flex items */
+}
+html, body {
+    overflow-x: hidden;  
+    margin: 0;          
+    padding: 0;          
+    width: 100vw;        
+  }
