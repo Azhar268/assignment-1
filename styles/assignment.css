@@ -234,3 +234,117 @@ select option:hover{
     background-color: #006A50;
     color: #FFFFFF;
 }
+.news-1{
+    display: flex;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.sat-2, .sat, .sat-2 h2, .sat-2 time, .sat-2 p, .sat-2 img{
+    background-color: transparent;
+}
+.sat img{
+    border-radius: 24px;
+}
+
+
+.news-2{
+    display: flex;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.sat-2, .sat, .sat-2 h2, .sat-2 time, .sat-2 p, .sat-2 img{
+    background-color: transparent;
+}
+.news-3{
+    display: flex;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.sat-2, .sat, .sat-2 h2, .sat-2 time, .sat-2 p, .sat-2 img{
+    background-color: transparent;
+}
+.sat-2{
+    align-items: start;
+}
+
+.time, .news-des{
+    color: rgba(14, 14, 14, 0.7);
+}
+.span-time{
+    background-color: transparent;
+    margin-left: 15px;
+}
+.time{
+    margin-top: 0px;
+}
+.recent-des{
+    color: rgba(14, 14, 14, 0.7);
+}
+.donate-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+     
+}
+.news-title{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 50px;   
+}
+.news-1{
+    display: flex;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.sat-2, .sat, .sat-2 h2, .sat-2 time, .sat-2 p, .sat-2 img{
+    background-color: transparent;
+}
+.sat img{
+    border-radius: 24px;
+}
+
+
+.news-2{
+    display: flex;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.sat-2, .sat, .sat-2 h2, .sat-2 time, .sat-2 p, .sat-2 img{
+    background-color: transparent;
+}
+.news-3{
+    display: flex;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.sat-2, .sat, .sat-2 h2, .sat-2 time, .sat-2 p, .sat-2 img{
+    background-color: transparent;
+}
+.sat-2{
+    align-items: start;
+}
+
+.time, .news-des{
+    color: rgba(14, 14, 14, 0.7);
+}
+.span-time{
+    background-color: transparent;
+    margin-left: 15px;
+}
+.time{
+    margin-top: 0px;
+}
+.recent-des{
+    color: rgba(14, 14, 14, 0.7);
+}
+.donate-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+     
+}
+.news-title{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 50px;   
+}
