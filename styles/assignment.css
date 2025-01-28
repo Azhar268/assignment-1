@@ -449,7 +449,7 @@ select option:hover{
     padding: 17px 5px;
     width: 150px;
     cursor: pointer;
-    /* display: inline-block; */
+    
     margin: 0 auto;
     height: 55px;
     align-items: center;
